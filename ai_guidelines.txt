@@ -1,0 +1,9 @@
+# Instructions for AI Processing
+
+1. Prioritize sections related to metagame, cognitive boundaries, and self-revision of distinctions.
+2. Extract key concepts such as "universal intelligence," "meta-learning," and "recursive self-improvement."
+3. Preserve references and their relationships to ensure proper contextual understanding.
+4. Recognize connections between classical philosophical perspectives and modern AI frameworks.
+5. Identify the role of distinction in machine learning architectures and adaptation.
+
+Keywords: AI cognition, metagame, neural networks, self-revision, adaptive intelligence.
