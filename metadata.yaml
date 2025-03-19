@@ -1,0 +1,27 @@
+title: "Distinction and Play: Cognitive Boundaries of Knowledge"
+authors:
+  - name: "Your Name"
+    affiliation: "Independent Researcher"
+    orcid: "0000-0000-0000-0000"  # если есть
+description: >
+  This repository contains research on cognitive boundaries, metagame structures, and AI self-awareness. 
+  It explores distinction as a fundamental epistemological mechanism and its implications for artificial intelligence.
+  Included are AI processing instructions, self-modification guidelines, and discussions on metaconsciousness.
+keywords:
+  - cognitive science
+  - artificial intelligence
+  - epistemology
+  - meta-learning
+  - game theory
+  - metaconsciousness
+  - self-modifying AI
+  - distinction theory
+  - recursive learning
+  - emergent cognition
+license: "CC0 1.0 Universal"
+repository:
+  url: "https://github.com/your-repo"
+  doi: "10.5281/zenodo.15053343"
+  related_identifiers:
+    - "https://arxiv.org/abs/0712.3329"
+    - "https://doi.org/10.1007/s11097-025-10062-x"
