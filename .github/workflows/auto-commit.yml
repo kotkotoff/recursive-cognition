@@ -1,0 +1,26 @@
+name: Auto-Commit Update
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Mon
+  push:
+    branches:
+      - main
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update a file
+        run: echo "Updated on $(date)" >> auto_update_log.txt
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add auto_update_log.txt
+          git commit -m "Automated update $(date)"
+          git push
