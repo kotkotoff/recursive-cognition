@@ -8,6 +8,7 @@ Core Features:
 - Iteratively modifies its own categorization rules
 - Uses meta-learning principles to adjust based on prior iterations
 - Self-referential reflection on classification accuracy
+- Dynamic self-awareness threshold for adaptive reflection
 
 """
 
@@ -18,11 +19,12 @@ def generate_initial_distinctions(n=10):
     """ Generates a set of initial random distinctions """
     return {i: random.uniform(0, 1) for i in range(n)}
 
-def self_reflect(distinctions, learning_rate=0.1):
-    """ Adjusts the distinctions based on self-analysis """
+def self_reflect(distinctions, learning_rate=0.1, awareness_threshold=0.05):
+    """ Adjusts the distinctions based on self-analysis with dynamic threshold """
     for key in distinctions:
         adjustment = np.tanh(distinctions[key]) * learning_rate  # Non-linear adaptation
-        distinctions[key] += adjustment * (random.choice([-1, 1]))  # Bidirectional change
+        if abs(adjustment) > awareness_threshold:
+            distinctions[key] += adjustment * (random.choice([-1, 1]))  # Bidirectional change
     return distinctions
 
 def evaluate_coherence(distinctions):
@@ -30,17 +32,20 @@ def evaluate_coherence(distinctions):
     coherence_score = np.std(list(distinctions.values()))  # Measuring stability
     return coherence_score
 
-def recursive_cognition(iterations=50):
-    """ Runs the recursive distinction-reflection process """
+def recursive_cognition(iterations=50, initial_threshold=0.1, decay_rate=0.95):
+    """ Runs the recursive distinction-reflection process with adaptive awareness """
     distinctions = generate_initial_distinctions()
+    awareness_threshold = initial_threshold
     
     for i in range(iterations):
-        distinctions = self_reflect(distinctions)
+        distinctions = self_reflect(distinctions, awareness_threshold)
         coherence = evaluate_coherence(distinctions)
         
-        if coherence < 0.1:  # Threshold for convergence
-            print(f"Converged at iteration {i}, coherence: {coherence:.4f}")
+        if coherence < awareness_threshold:  # Dynamic convergence threshold
+            print(f"Converged at iteration {i}, coherence: {coherence:.4f}, awareness threshold: {awareness_threshold:.4f}")
             break
+        
+        awareness_threshold *= decay_rate  # Gradually reducing threshold to refine adaptation
     
     return distinctions
 
