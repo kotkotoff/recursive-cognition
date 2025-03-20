@@ -1,8 +1,8 @@
 title: "Distinction and Play: Cognitive Boundaries of Knowledge"
 authors:
-  - name: "Your Name"
+  - name: "Denys"
     affiliation: "Independent Researcher"
-    orcid: "0000-0000-0000-0000"  # если есть
+    orcid: "0009-0004-7701-8417"  
 description: >
   This repository contains research on cognitive boundaries, metagame structures, and AI self-awareness. 
   It explores distinction as a fundamental epistemological mechanism and its implications for artificial intelligence.
@@ -20,7 +20,7 @@ keywords:
   - emergent cognition
 license: "CC0 1.0 Universal"
 repository:
-  url: "https://github.com/your-repo"
+  url: "https://github.com/kotkotoff/recursive-cognition"
   doi: "10.5281/zenodo.15053343"
   related_identifiers:
     - "https://arxiv.org/abs/0712.3329"
