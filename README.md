@@ -31,6 +31,8 @@ Each paper is available in multiple formats:
 📥 Download from Figshare:  
 [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.28631588-blue)](https://doi.org/10.6084/m9.figshare.28631588)
 
+📥 Download from Internet Archive:  
+[![Internet Archive](https://img.shields.io/badge/Archive.org-Permanent-blue)](https://archive.org/details/recursive-cognition-1.0)
 
 ### 📖 **References and Citations**  
 
