@@ -28,6 +28,9 @@ Each paper is available in multiple formats:
 📥 Download from Zenodo:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15055269.svg)](https://doi.org/10.5281/zenodo.15055269)
 
+📥 Download from Figshare:  
+[![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.28631588-blue)](https://doi.org/10.6084/m9.figshare.28631588)
+
 
 ### 📖 **References and Citations**  
 
