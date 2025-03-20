@@ -25,6 +25,10 @@ Each paper is available in multiple formats:
 - 📄 **LaTeX** (`.latex`) – For academic publishing.  
 - 📃 **TXT** (`.txt`) – Plain text version for accessibility.  
 
+📥 Download from Zenodo:  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15055269.svg)](https://doi.org/10.5281/zenodo.15055269)
+
+
 ### 📖 **References and Citations**  
 
 A `.bib` file containing all references will be included for citation purposes.  
